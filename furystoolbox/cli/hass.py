@@ -49,7 +49,7 @@ def breaking_change(number, cli=False):
                 prlink = "{}{}".format(pull_base, pull)
                 try:
                     split = '<a href="/home-assistant/home-assistant.io/blob/'
-                    split += "current/components/"
+                    split += "next/integrations/"
                     component = str(change)
                     component = component.split(split)[1]
                     component = component.split('">')[0]
